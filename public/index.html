@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title id="title">Dark Side SCP</title>
+  <!-- OpenGraph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Dark Side SCP">
+  <meta property="og:title" content="D.S.SCP Viewer" />
+  <meta property="og:description" content="The SCP Wiki viewer with an actual dark theme" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="res/styles/index.css"> 
+  <!-- JS -->
+  <script src="index.js"></script>
+  <!-- Roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="alM" style="margin-top:5em">
+    <img src="res/img/scp-logo.svg" width="20%" alt="SCP Foundation emblem" class="svgWhite"/>
+    <h1>Dark Side SCP</h1>
+    <p>Enter a page you want to view below.</p>
+    <p>You can enter a URL or an SCP number.</p>
+    <input type="url" id="urlInput"></input>
+    <button type="button" id="urlBtn" onclick="goToPage();">Go!</button>
+    <p style="color:red;font-weight:900;">THIS IS STILL A WIP. EXPECT BUGS AND STUFF.</p>
+  </div>
+</body>
+</html>

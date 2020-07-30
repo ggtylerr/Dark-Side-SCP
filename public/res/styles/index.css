@@ -1,0 +1,32 @@
+body {
+  background-color: #191919;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.svgWhite {
+  filter: invert(92%) sepia(80%) saturate(2%) hue-rotate(117deg) brightness(109%) contrast(101%);
+}
+
+.alM {text-align: center;}
+
+#urlInput {
+  background-color: #191919;
+  border: none;
+  border-bottom: white solid;
+  border-radius: 25px;
+  color: white;
+  text-align: center;
+}
+
+#urlInput:focus {
+  outline: none;
+}
+
+#urlBtn {
+  background-color: #555555;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 20px;
+}
