@@ -46,8 +46,9 @@ app.get('/v', (req,res) => {
       `;
       res.send(content);
     } catch (err) {
-      console.log(err.message);
-      res.send(err.message);
+      console.error(`An error occurred while querying '${JSON.stringify(req.query)}'`)
+      console.error(err.message);
+      res.send("An error occurred! Here's the message:\n" + err.message);
     }
   })();
 });
