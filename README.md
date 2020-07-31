@@ -10,15 +10,15 @@ An SCP Wiki viewer with a proper dark theme
 
 ## What works at the moment
 * Hopefully anything that doesn't have any special styles made for that page.
-* The ACS, along with the special warning image.
+* Mostly everything that does have a special style (though, if they have a theme, it might break it)
 * Collapsible stuff.
 * Any link that doesn't directly go to the wiki.
 * OpenGraph embeds *(mostly.)*
 * Mobile viewing (hopefully without much issues)
 
 ## What doesn't work
-* Mostly anything that *does* have a special style made for them.
 * Footnotes.
+* Tabs.
 * Any link that directly goes to the wiki.
 * Forums.
 * Descriptions in OpenGraph embeds.
