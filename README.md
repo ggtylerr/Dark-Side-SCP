@@ -14,6 +14,7 @@ An SCP Wiki viewer with a proper dark theme
 * Collapsible stuff.
 * Any link that doesn't directly go to the wiki.
 * OpenGraph embeds *(mostly.)*
+* Mobile viewing (hopefully without much issues)
 
 ## What doesn't work
 * Mostly anything that *does* have a special style made for them.

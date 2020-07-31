@@ -48,6 +48,14 @@ body {
   padding: 2em 1em;
 }
 
+@media only screen and (max-width: 768px) {
+  #main-content {
+    margin: 2.1em auto 0;
+    padding: 0;
+    max-width: 90vw;
+  }
+}
+
 #toc1 > span {
   color: white;
 }
@@ -133,6 +141,12 @@ div[style*="background"] {
   background-color: #191919 !important;
 }
 
+.scp-image-block.block-left {
+    float: left;
+    clear: left;
+    margin: 0 2em 1em 0;
+}
+
 .scp-image-block.block-right {
   float: right;
   clear: right;
@@ -174,6 +188,20 @@ div.block-left, div.block-right {
   align-items: center;
   box-shadow: 0 .0625rem .375rem rgba(0,0,0,.25);
   border: .0625rem solid rgb(128,128,128);
+}
+
+.scp-image-block .scp-image-caption {
+  border-top: .0625rem solid #0c0c0c;
+  padding: .125rem 0;
+  font-size: 80%;
+  font-weight: 700;
+  letter-spacing: .016em;
+  text-align: center;
+}
+
+.scp-image-block .scp-image-caption>p {
+  margin: 0;
+  padding: 0 .625rem;
 }
 
 .scp-image-block img[style*="width:"] {
