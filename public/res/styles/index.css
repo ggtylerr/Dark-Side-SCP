@@ -30,3 +30,9 @@ body {
   color: white;
   padding: 10px 20px;
 }
+
+.iconLink {font-size: 60px;}
+.iconLink:link {color:white;}
+.iconLink:visited {color:white;}
+.iconLink:hover {color:white;}
+.iconLink:active {color:white;}
