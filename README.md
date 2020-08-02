@@ -15,9 +15,9 @@ An SCP Wiki viewer with a proper dark theme
 * Any link that doesn't directly go to the wiki.
 * OpenGraph embeds *(mostly.)*
 * Mobile viewing (hopefully without much issues)
+* Footnotes.
 
 ## What doesn't work
-* Footnotes.
 * Tabs.
 * Any link that directly goes to the wiki.
 * Forums.
