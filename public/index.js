@@ -20,11 +20,11 @@ function goToPage() {
     // If it's a URL, cut out the domain.
     url = url.split(".net/")[1];
     // Redirect to viewer
-    window.location = "https://darksidescp.ggtylerr.digital/v?p=" + url;
+    window.location = "http://darksidescp.ggtylerr.digital/v?p=" + url;
   } else {
     // Add 0's at the start if it doesn't match 3 characters
     if (url.length < 3) url = url.padStart(3,"0");
     // Redirect to viewer
-    window.location = "https://darksidescp.ggtylerr.digital/v?p=scp-" + url;
+    window.location = "http://darksidescp.ggtylerr.digital/v?p=scp-" + url;
   }
 }
