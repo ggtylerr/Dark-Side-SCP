@@ -28,6 +28,7 @@ An SCP Wiki viewer with a proper dark theme
 * Site tools.
 * Editing.
 * Pretty much anything that involves needing an account or sending information to the server. This is intended as a viewer, not a full on replacement.
+* Proper HTTPS. Unless the SCP wiki finally puts up a proper HTTPS protocol, HTTPS on the viewer will most likely never work due to [Mixed Content blocking.](https://developers.google.com/web/fundamentals/security/prevent-mixed-content/what-is-mixed-content)
 
 ## What is planned
 * Fixes to the "what doesn't work" set.
