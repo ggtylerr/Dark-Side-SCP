@@ -5,8 +5,16 @@ function validSCPurl(s) {
     s = s.replace("http://","");
     if (s.startsWith("www.scp-wiki.net/") || s.startsWith("scp-wiki.net/"))
       return true;
+    if (s.startsWith("www.scpwiki.com/") || s.startsWith("scpwiki.com/"))
+      return true;
+    if (s.startsWith("www.scp-wiki.com/") || s.startsWith("scp-wiki.com/"))
+      return true;
   }
   if (s.startsWith("www.scp-wiki.net/") || s.startsWith("scp-wiki.net/"))
+    return true;
+  if (s.startsWith("www.scpwiki.com/") || s.startsWith("scpwiki.com/"))
+    return true;
+  if (s.startsWith("www.scp-wiki.com/") || s.startsWith("scp-wiki.com/"))
     return true;
 }
 
@@ -18,7 +26,10 @@ function goToPage() {
     alert("That's not a valid URL from the SCP wiki, and that's not a number.")
   } else if (validSCPurl(url)) {
     // If it's a URL, cut out the domain.
-    url = url.split(".net/")[1];
+    if (url.includes(".net/"))
+      url = url.split(".net/")[1];
+    else
+      url = url.split(".com/")[1];
     // Redirect to viewer
     window.location = "http://darksidescp.ggtylerr.digital/v?p=" + url;
   } else {

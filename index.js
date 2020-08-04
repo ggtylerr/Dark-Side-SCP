@@ -17,7 +17,7 @@ app.get('/', (req, res) => res.sendFile('public/index.html'));
 app.get('/v', (req,res) => {
   (async () => {
     try {
-      var response = await got("http://www.scp-wiki.net/" + req.query.p);
+      var response = await got("http://www.scpwiki.com/" + req.query.p);
       // Yes, this is manually editing HTML code in a string.
       // No, I'm not using PHP.
       var content = `
