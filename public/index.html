@@ -38,5 +38,12 @@
     <p style="color:red;font-weight:900;">THIS IS STILL A WIP. EXPECT BUGS AND STUFF.</p>
     <a href="https://github.com/ggtylerr/Dark-Side-SCP" class="iconLink"><i class="fab fa-github"></i></a>
   </div>
+  <script type="text/javascript">
+    document.querySelector("#urlInput").addEventListener("keyup", event => {
+      if(event.key !== "Enter") return;
+      document.querySelector("#urlBtn").click();
+      event.preventDefault();
+    });
+  </script>
 </body>
 </html>
