@@ -31,11 +31,11 @@ function goToPage() {
     else
       url = url.split(".com/")[1];
     // Redirect to viewer
-    window.location = "http://darksidescp.ggtylerr.digital/v?p=" + url;
+    window.location = "http://darksidescp.ggtylerr.dev/v?p=" + url;
   } else {
     // Add 0's at the start if it doesn't match 3 characters
     if (url.length < 3) url = url.padStart(3,"0");
     // Redirect to viewer
-    window.location = "http://darksidescp.ggtylerr.digital/v?p=scp-" + url;
+    window.location = "http://darksidescp.ggtylerr.dev/v?p=scp-" + url;
   }
 }

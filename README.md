@@ -3,7 +3,7 @@
 # Dark-Side-SCP
 An SCP Wiki viewer with a proper dark theme
 
-[Website Link](https://darksidescp.ggtylerr.digital)
+[Website Link](https://darksidescp.ggtylerr.dev)
 
 ![SCP-173 Screenshot](https://github.com/ggtylerr/Dark-Side-SCP/blob/master/docs/img/scp173.png)
 ![SCP-5004 Screenshot](https://github.com/ggtylerr/Dark-Side-SCP/blob/master/docs/img/scp5004.png)
