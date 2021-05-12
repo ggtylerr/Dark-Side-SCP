@@ -3,7 +3,7 @@ const cors = require('cors');
 const app = express();
 const path = require('path');
 const got = require('got');
-const $ = require('cheerio');
+const $ = require('cheerio').default;
 const port = 3000;
 
 // Static crap
